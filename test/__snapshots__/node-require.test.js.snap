@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`doesnt replace normal requires 1`] = `
+"\\"use strict\\";
+
+var fs = require(\\"fs\\");"
+`;
+
+exports[`non naive example 1`] = `
+"\\"use strict\\";
+
+var path = require(\\"path\\");
+
+// node-require
+var fs = window.cep_node.require(\\"fs\\");
+
+// node-require
+var os = window.cep_node.require(\\"os\\");
+
+require(\\"babel-preset\\");
+
+var util = require(\\"util\\");
+
+// node-require
+var crypto = window.cep_node.require(\\"crypto\\");"
+`;
+
+exports[`replaces commented node-require require functions with window.cep_node.require 1`] = `
+"\\"use strict\\";
+
+// node-require
+var fs = window.cep_node.require(\\"fs\\");"
+`;

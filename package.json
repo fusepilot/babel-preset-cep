@@ -1,0 +1,23 @@
+{
+  "name": "babel-preset-cep",
+  "version": "0.0.1",
+  "description": "Babel preset mainly intended for use with Adobe CEP Panels.",
+  "author": "Michael Delaney <michael@fusepilot.com>",
+  "license": "MIT",
+  "repository": "https://github.com/fusepilot/babel-preset-cep",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "develop": "jest --watchAll"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.26.0",
+    "babel-helper-plugin-test-runner": "^6.8.0",
+    "babel-helper-transform-fixture-test-runner": "^6.13.2",
+    "jest": "^21.2.1"
+  }
+}
