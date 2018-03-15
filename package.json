@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-cep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babel preset mainly intended for use with Adobe CEP Panels.",
   "author": "Michael Delaney <michael@fusepilot.com>",
   "license": "MIT",
