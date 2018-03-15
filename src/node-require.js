@@ -1,6 +1,6 @@
 module.exports = function({ template, types: t }) {
   const buildImport = template(`
-    (window.cep_node || window.cep).require(SOURCE);
+    (window.cep_node || window).require(SOURCE);
   `);
 
   return {
