@@ -23,7 +23,7 @@ Object.defineProperty(module.exports, 'buildPreset', {
 });
 
 function preset(context, opts) {
-  const env = require('babel-preset-env');
+  const env = require('@babel/preset-env');
 
   return {
     presets: [env],

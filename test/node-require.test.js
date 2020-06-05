@@ -1,5 +1,5 @@
 const preset = require('../src');
-const babel = require('babel-core');
+const babel = require('@babel/core');
 
 it('replaces commented node-require require functions with window.cep_node.require', () => {
   const example = `
