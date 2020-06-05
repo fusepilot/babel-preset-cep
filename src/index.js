@@ -25,8 +25,8 @@ Object.defineProperty(module.exports, 'buildPreset', {
 function preset(context, opts) {
   const env = require('@babel/preset-env');
 
-  return {
+  return () => ({
     presets: [env],
     plugins: [require('./node-require.js')].filter(Boolean),
-  };
+  });
 }
