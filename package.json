@@ -11,13 +11,16 @@
     "develop": "jest --watchAll"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.1"
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-core": "^6.26.0",
-    "babel-helper-plugin-test-runner": "^6.8.0",
-    "babel-helper-transform-fixture-test-runner": "^6.13.2",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/helper-plugin-test-runner": "^7.0.0",
+    "@babel/helper-transform-fixture-test-runner": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
     "jest": "^21.2.1"
   }
 }
